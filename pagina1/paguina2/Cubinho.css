@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Croissant';
+    src: url("fontes/Super\ Croissant.ttf");
+}
+@font-face {
+   font-family: 'Mamboe';
+    src: url('fontes/Mamboe\ Trial.otf');
+}
+@font-face {
+    font-family: 'RobotoItalico' ;
+    src: url('fontes/RobotoMono-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fontes/RobotoMono-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: var(--FontRoboto);
+
+}
+:root{
+    --FontRoboto:'Roboto';
+    --FontRobotoItalico: 'RobotoItalico';
+    --fontMaboe:'Mamboe';
+    --fontCroissant: 'Croissant';
+    --CorVioletNoite: #301934;
+    --CorVerdfosco:#D8F1A0 ;
+    --CorTomate:#FE5E41;
+    --CorCatchupe:#be1e02;
+    --CorAmarelo: #F09A18;
+    --CorSelva1:#00A878;
+     --CorSelva2:#084d39;
+     --CorVerdeEscurão:#004727;
+    --corCinzaChumbo:#35393C;
+}
+
+
+html,body{
+     position: relative;
+     
+    
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    
+    background-image:url('fotos/fundos/download\ \(6\).jpg') ;
+    background-size: cover;
+    margin: auto;
+    max-width: 600vw;
+    
+
+}
+header  h1 a {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 30px;
+    color:var(--CorCatchupe);
+    font-family: var(--fontMaboe);
+    font-size: 7vw;
+    
+}
+
+main{
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image:url('fotos/fundos/download\ \(6\).jpg') ;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.galeria{
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+
+
+}
+
+.galeria > img{
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
