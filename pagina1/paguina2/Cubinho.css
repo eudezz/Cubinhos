@@ -42,8 +42,10 @@
 
 html,body{
      position: relative;
-     
-    
+      background-image: url('fotos/fundos/download\ \(6\).jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+        background-size: cover;    
 }
 
 
@@ -51,10 +53,15 @@ header{
     position: sticky;
     top: 0;
     
-    background-image:url('fotos/fundos/download\ \(6\).jpg') ;
-    background-size: cover;
+    background-color: ;
+    display: flex;
     margin: auto;
     max-width: 600vw;
+    background-image: url('fotos/fundos/download\ \(6\).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+       
+
     
 
 }
@@ -67,27 +74,59 @@ header  h1 a {
     font-size: 7vw;
     
 }
+nav h1{
+    position: relative;
+    left: 50px;
+    top: 2px;
+    color: #F09A18;
+    font-size:5vw;
+    
+}
+nav h1:hover {
+    background-image: url('fotos/fundos/download\ \(6\).jpg');
+    background-size: cover;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
 
 main{
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image:url('fotos/fundos/download\ \(6\).jpg') ;
-    background-repeat: no-repeat;
+   
+     padding: 20px;
+    /* width: 93%;
+    max-height: 100%; */
     margin: auto;
+    margin-top: 20px;
+  
+   
+}
+
+
+#saladas{
+    background-color: #a34040;
+    height: 100%;
+    max-width: 100vh;
+    
+
+
+
 }
 
 .galeria{
     margin: auto;
     padding-top: 40px;
     padding-left: 40px;
-
+    object-fit: cover;
 
 }
 
 .galeria > img{
     height: 100%;
     border-radius: 20px;
+    object-fit: cover;
 
 }
 
