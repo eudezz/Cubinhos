@@ -105,14 +105,11 @@ main{
 }
 
 
-#saladas{
-    background-color: #a34040;
+
+article{
+     background-color: #a34040;
     height: 100%;
-    max-width: 100vh;
-    
-
-
-
+    max-width: 100vh    
 }
 
 .galeria{
