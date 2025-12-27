@@ -10,7 +10,7 @@
 
         :root{
     --colorversalada: #5B906C;
-
+    --colorMarron:#592418;
 }
 
 *{
@@ -20,7 +20,8 @@
 
 
 body{
-    background-color:var(--colorversalada) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--colorversalada);
 }
 
 main{
@@ -30,19 +31,34 @@ main{
 }
 
 section{
+    border-radius: 10px;
+    vertical-align:top;
     width: 300px;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.63);
     display:inline-block;
     margin: auto;
     margin-left: 50px;
+    margin-right: 0px;
     margin-bottom: 10px;
     padding-left: 50px;
+    padding-top: 10px;
 }
 
 section> img{
-
+    border-radius: 20px;
    display: inline-block;
    padding: 10px;
+
+}
+section > p {
+    background-color: rgba(128, 128, 128, 0.411);
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+section> img:hover{
+ border-radius: 30px;
+ padding-left: 30px;
+ box-shadow: 0px 3px 4px black ;
 
 }
 
@@ -53,13 +69,30 @@ section> img{
     <main>
            <section>
             <img src="/pagina1/fotos/comidas/Salada/pexels-bulbfish-1143754.jpg" alt="">
-            <p>Uma deliciosa Salada de Abacate e Tomate</p>
+            <h3>Salacate</h3>
+            <p>Uma Salada refrescante  de Abacate, Tomate e milho</p>
         </section>
         
-            <section><img src="/pagina1/fotos/comidas/Salada/pexels-daniela-elena-tentis-118658-1213710.jpg" alt=""></section>
-            <section><img src="/pagina1/fotos/comidas/Salada/Salada2.jpg" alt=""></section>
-            <section><img src="/pagina1/fotos/comidas/Salada/pexels-iina-luoto-460132-1211887.jpg" alt=""></section>
-            <section><img src="/pagina1/fotos/comidas/Salada/pexels-heyronmar-806361 (1).jpg" alt=""></section>
+            <section><img src="/pagina1/fotos/comidas/Salada/pexels-daniela-elena-tentis-118658-1213710.jpg" alt="">
+                <h3>Salada Afruticada</h3>
+                <p>Deliciosa refeição com morangos, azeitonas pretas, aface e abacaxi</p>
+                
+            </section>
+
+            <section><img src="/pagina1/fotos/comidas/Salada/Salada2.jpg" alt="">
+            <h3>Salada A lá Queijo</h3>
+            <p>Creme de Queijo Gorgonzola, Acelga e Brocolis. Perfeita mistura para alegra o seu dia.</p>
+            
+            </section>
+            <section><img src="/pagina1/fotos/comidas/Salada/pexels-iina-luoto-460132-1211887.jpg" alt="">
+            <h3>Cubinhos do Morgume</h3>
+            <p>Tomate Cereja, azeitonas pretas, e queijo, bastante queijo.</p>
+            
+            </section>
+            <section><img src="/pagina1/fotos/comidas/Salada/pexels-heyronmar-806361 (1).jpg" alt="">
+            <h3>Mata Carnivora</h3>
+            <P>Alface, tomate cereja e cubinhos de carne.</P>
+            </section>
         
     </main>
 

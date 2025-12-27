@@ -100,14 +100,14 @@ main{
     max-height: 100%; */
     margin: auto;
     margin-top: 20px;
-  
+    margin-left: 60px;
    
 }
 
 
 iframe{
     height: 450px;
-    width: 70vw;
+    width: 80vw;
     margin: auto;
 
 }
