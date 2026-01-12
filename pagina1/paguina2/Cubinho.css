@@ -74,23 +74,13 @@ header  h1 a {
     font-size: 7vw;
     
 }
-nav h1{
+
+header h2 a {
     position: relative;
-    left: 50px;
-    top: 2px;
-    color: #F09A18;
-    font-size:5vw;
-    
+    bottom: 100px;
+    left: 40px;
 }
-nav h1:hover {
-    background-image: url('fotos/fundos/download\ \(6\).jpg');
-    background-size: cover;
-    padding: 10px;
-    border-radius: 20px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-}
+
 
 
 main{
