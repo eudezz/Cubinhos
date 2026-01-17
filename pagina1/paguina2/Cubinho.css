@@ -52,9 +52,7 @@ html,body{
 
 header{
     position: sticky;
-    top: 0;
-    
-    display: flex;
+    top: 0;  
     margin: auto;
     max-width: 600vw;
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
@@ -69,6 +67,7 @@ header  h1 a {
     text-decoration: none;
     padding-top: 30px;
     padding-left: 30px;
+    padding-right: 20px;
     color:var(--CorCatchupe);
     font-family: var(--fontMaboe);
     font-size: 7vw;
@@ -77,14 +76,7 @@ header  h1 a {
 }
 
 
-main{
-   
-     padding: 20px;
-    margin: auto;
-    
-   
-   
-}
+
 
 
 iframe{
@@ -94,27 +86,18 @@ iframe{
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.486);
     border-radius: 10px;
 }
-section{
-    margin: auto;
-   
-   
 
-
-}
 .menu{
-    
-    
-   display: inline-block;
     text-decoration: none;
     background-image:linear-gradient(to bottom,var(--CorSelva1) ,#35393C) ;
     border: 1px solid  black;
-    color: #;
+    height: 40px;
     border-radius: 7px;
+    margin: auto;
     margin-left:10px ;
-    margin-bottom: 10px;
-    font-size: 4vh;
+    margin-top: 50px;
     font-variant: small-caps;
-    padding: 7px;
+    padding: 4px;
 }
 .menu:hover{
     background: linear-gradient(to bottom,#fe5d410a,var(--CorSelva1) );
