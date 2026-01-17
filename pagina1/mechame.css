@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+:root{
+    --FontRoboto:'Roboto';
+    --FontRobotoItalico: 'RobotoItalico';
+    --fontMaboe:'Mamboe';
+    --fontCroissant: 'Croissant';
+    --CorVioletNoite: #301934;
+    --CorVerdfosco:#D8F1A0 ;
+    --CorTomate:#FE5E41;
+    --CorCatchupe:#be1e02;
+    --CorAmarelo: #F09A18;
+    --CorSelva1:#00A878;
+     --CorSelva2:#084d39;
+     --CorVerdeEscurão:#004727;
+    --corCinzaChumbo:#35393C;
+    --CorVerd:#9bda7e;
+}
+
+main{
+    background-color:var(--CorSelva1) ;
+    height: 500px;
+
+}
+iframe{
+    margin: 20px;
+    object-fit: cover;
+    height: 200px;
+    width: 70vh;
+    
+}
+section{
+    padding: 20px;
+    background-color: #301934;
+    color: white;
+    width: 300px;
+    position: relative;
+    left: 50px;
+
+
+    transform: translate(50px -50px 50px
+    );
+}
