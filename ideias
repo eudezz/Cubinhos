@@ -42,4 +42,20 @@ parte sobre o restaurante : nossa NossaHistoria
 
 } */
         
+desgrade {
+    
+    background: 
+  linear-gradient(
+    to top,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0)
+  ),
+  url("imagem.jpg");
 
+background-size: cover;
+background-position: center;
+
+
+
+
+}
