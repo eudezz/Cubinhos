@@ -55,9 +55,9 @@ html,body{
 header{
     position: sticky;
     top: 0;
-    
     margin: auto;
-    max-width: 600vw;
+   
+    min-width: 600vh;
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
     background-size: cover;
     background-attachment: fixed;
@@ -81,11 +81,10 @@ nav{
     
     display: inline-flex;
     font-size: 2vh;
-    margin-top: 50px;
      display: inline-flex;
     margin: auto;
     text-align: center;
-    min-width: 10px;
+    
 
 }
 
