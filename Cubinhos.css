@@ -56,7 +56,6 @@ header{
     position: sticky;
     top: 0;
     margin: auto;
-   
     min-width: 600vh;
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
     background-size: cover;

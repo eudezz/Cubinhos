@@ -16,6 +16,8 @@
     src: url('fontes/RobotoMono-VariableFont_wght.ttf');
 }
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -58,17 +60,22 @@ header{
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
     background-size: cover;
     background-attachment: fixed;
-       
-
-    
+        
+   
 
 }
+header h1{
+    color: var(--CorCatchupe);
+
+
+}
+
 header  h1 a {
     text-decoration: none;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 20px;
-    color:var(--CorCatchupe);
+    color: #be1e02;
     font-family: var(--fontMaboe);
     font-size: 7vw;
     
