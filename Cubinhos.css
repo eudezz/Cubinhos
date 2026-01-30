@@ -56,7 +56,7 @@ header{
     position: sticky;
     top: 0;
     margin: auto;
-    min-width: 600vh;
+    
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
     background-size: cover;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ header > h1 {
     color: var(--CorCatchupe);
     font-family: var(--fontMaboe);
     font-size: 7vw;
-    
+    font-size: 2.5em;
 }
 
 
@@ -79,6 +79,7 @@ header > h1 {
 nav{
     
     display: inline-flex;
+
     font-size: 2vh;
      display: inline-flex;
     margin: auto;
@@ -167,11 +168,10 @@ main{
 /*Nossa Historia*/
 
 #nossahistoria{
-    /* margin: auto;
-    display: flex;
-    align-items: center; /* deixa alinhado verticalmente */
-    /* gap: 20px; */ 
-    max-width:var(--max-width);margin:12px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:0 8px;
+     margin: auto;
+
+    gap: 20px;  
+   margin:12px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:0 8px;
     
 }
 #nossahistoria > p{
@@ -194,7 +194,7 @@ main{
  /*Cardapio*/
    
  .galeria{
-    max-width:var(--max-width);margin:12px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:0 8px;
+    margin:12px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:0 8px;
 }
 .galeria img{
     width:100%;

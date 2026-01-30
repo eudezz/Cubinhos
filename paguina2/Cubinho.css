@@ -56,10 +56,10 @@ header{
     position: sticky;
     top: 0;  
     margin: auto;
-    max-width: 600vw;
+    padding-bottom: 30px;
+    padding-top: 20px;
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
-    background-size: cover;
-    background-attachment: fixed;
+    
         
    
 
@@ -81,9 +81,6 @@ header  h1 a {
     
     
 }
-
-
-
 
 
 iframe{
