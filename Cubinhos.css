@@ -194,7 +194,9 @@ main{
  /*Cardapio*/
    
  .galeria{
-    margin:12px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:0 8px;
+    margin:12px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:0 8px;
 }
 .galeria img{
     width:100%;
