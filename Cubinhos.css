@@ -101,7 +101,9 @@ nav > a {
     font-family: var(--FontRoboto);
     border: 1px  solid black;
     border-radius:10px;
-    object-fit: cover;
+    display:grid;
+    
+    
     margin: 1vh;
     margin-left: 30px;
  
