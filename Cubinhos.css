@@ -55,7 +55,7 @@ header{
     position: sticky;
     top: 0;
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
-    
+    width: 100vw;
 
 }
 header > h1 {
@@ -73,6 +73,7 @@ header > h1 {
 
 nav{
     display: inline-flex;
+    margin-bottom: 10px;
     text-align: center;
    
 
