@@ -72,29 +72,25 @@ header > h1 {
 
 
 nav{
-    
-    
-    font-size: 1.5em;
-     display: inline-flex;
+    display: inline-flex;
     text-align: center;
-    margin-bottom: 10px;
+   
 
 }
 
 
 
 nav > a {
+   
     background-image:linear-gradient(to bottom,var(--CorSelva1) ,#35393C) ;
     margin: auto;
     font-variant: small-caps;
     color: black;
-    font-size: 3vh;
     text-decoration: none;
     padding: 7px;
     font-family: var(--FontRoboto);
     border: 1px  solid black;
     border-radius:10px;
-    object-fit: cover;
     margin-left: 30px;
  
 }
