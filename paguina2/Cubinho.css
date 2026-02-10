@@ -44,15 +44,13 @@
 
 html,body{
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
-     position: relative;
-      background-image: ;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-        background-size: cover;    
+     
+        
 }
 
 
 header{
+
     position: sticky;
     top: 0;  
     margin: auto;
@@ -66,11 +64,12 @@ header{
 }
 header h1{
     color: var(--CorCatchupe);
-
+    text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.74) ;
 
 }
 
 header  h1 a {
+    
     text-decoration: none;
     padding-top: 30px;
     padding-left: 30px;
