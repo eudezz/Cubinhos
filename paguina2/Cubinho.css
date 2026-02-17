@@ -53,9 +53,7 @@ header{
 
     position: sticky;
     top: 0;  
-    margin: auto;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    
     background-image:linear-gradient(to top, var(--CorSelva2), var(--corCinzaChumbo));
     
         
@@ -76,13 +74,14 @@ header  h1 a {
     padding-right: 20px;
     color: #be1e02;
     font-family: var(--fontMaboe);
-    font-size: 7vw;
+    font-size: 1.5em;
     
     
 }
 
 
 iframe{
+    display: block;
     height: 1000px;
     width: 100%;
     margin: auto;
@@ -94,13 +93,13 @@ iframe{
     text-decoration: none;
     background-image:linear-gradient(to bottom,var(--CorSelva1) ,#35393C) ;
     border: 1px solid  black;
-    height: 40px;
     border-radius: 7px;
-    margin: auto;
-    margin-left:10px ;
-    margin-top: 50px;
     font-variant: small-caps;
-    padding: 4px;
+    padding: 7px;
+    margin-left: 10px;
+    display: inline-flex;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .menu:hover{
     background: linear-gradient(to bottom,#fe5d410a,var(--CorSelva1) );
